@@ -105,10 +105,7 @@ Please try to create bug reports that are:
 
 ## Support
 
-Reach out to the maintainer at one of the following places:
-
-- [GitHub discussions](https://github.com/AMEXif/eaio/discussions)
-- [Discord Server](https://discord.gg/mrFsZb5K4m)
+***- [Contact me in my discord server!](https://discord.gg/mrFsZb5K4m)***
 
 ## License
 
