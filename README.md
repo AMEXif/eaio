@@ -82,7 +82,7 @@ Make a desktop shortcut pointing to the exe file found in the created directory.
 
 To convert a video super fast, select the "Transcoder" tab on the left panel.
 
-![image](https://user-images.githubusercontent.com/67397386/159093140-d728b653-5569-4313-b41a-7963277daeb6.png)
+<img src="https://user-images.githubusercontent.com/67397386/159093140-d728b653-5569-4313-b41a-7963277daeb6.png" width="665" height="399" />
 
 Then select your input and output files by clicking on the three-dotted buttons next to the text blocks accordingly.
 
