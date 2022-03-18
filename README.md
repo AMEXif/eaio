@@ -66,19 +66,9 @@ Of course, no template will serve all the projects since your needs may be diffe
 
 ## Getting Started
 
-### Prerequisites
-
-The recommended method to install **Amazing GitHub Template** is by using [Cookiecutter](https://github.com/cookiecutter/cookiecutter). For manual install please refer to [manual setup section](#manual-setup).
-
-```sh
-pip install --user cookiecutter
-```
 
 ### Usage
 
-#### Manual setup
-
-Manual seup
 
 ## Contributing
 
