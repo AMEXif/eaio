@@ -1,6 +1,7 @@
 
-<div align="center">
-  **Editing All-In-One - Video processing compiled!**
+<div align="center"
+     size="28">
+  Editing All-In-One - Video processing compiled!
   <br />
   ·
   <a href="https://forms.gle/fFiwvgmJLwqMfCAx9">Request a Feature</a>
