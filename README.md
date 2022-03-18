@@ -70,6 +70,16 @@ Download the package file from my payhip, it's 100% free, but I won't get mad if
 
 - [Download](https://payhip.com/b/InD9Z)
 
+Extract the .rar archive onto your desktop (or wherever you want really, I don't care).
+
+![image](https://user-images.githubusercontent.com/67397386/159092887-ac58df24-3c4d-47ec-b421-0d99276824c7.png)
+
+Make a desktop shortcut pointing to the exe file found in the created directory.
+
+![image](https://user-images.githubusercontent.com/67397386/159092970-e381b7fb-2d43-453d-9227-b8f6cc7561b4.png)
+
+Now you can just run the shortcut and you're done! 🎉
+
 ### Usage
 
 
