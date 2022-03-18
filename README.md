@@ -1,5 +1,5 @@
 
-# **Editing All-In-One - Video processing compiled!**
+<div align="right"> Editing All-In-One - Video processing compiled! </div>
 
 <div align="center">
   ·
