@@ -88,6 +88,18 @@ Then select your input and output files by clicking on the three-dotted buttons 
 
 **After that, just click "Convert" and watch it go! 🎉**
 
+## Usage - Interpolation / Upscaling
+
+To start the interpolation process, select the "Interpolation" tab.
+
+![image](https://user-images.githubusercontent.com/67397386/159095495-299d45a6-a728-4059-9d9d-439bdab8f6de.png)
+
+Select if you want to delete any duplicate frames from the input video. This is important, as if you don't select this option the output video will most likely be very choppy! However, if you have already cut out any dead frames from the input video yourself, you can leave this unchecked.
+
+![image](https://user-images.githubusercontent.com/67397386/159095751-13564508-ddd6-4cb4-860f-a062a179550a.png)
+
+**After this, the process of processing the video is pretty much the same as when converting. So you can just follow the guide at the top! 🎉**
+
 ## Support
 
 ***- [Contact me in my discord server! (very WIP)](https://discord.gg/mrFsZb5K4m)***
