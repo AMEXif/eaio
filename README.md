@@ -74,7 +74,7 @@ Extract the .rar archive onto your desktop (or wherever you want really, I don't
 
 Make a desktop shortcut pointing to the exe file found in the created directory.
 
-![image](https://user-images.githubusercontent.com/67397386/159092970-e381b7fb-2d43-453d-9227-b8f6cc7561b4.png)
+<img src="https://user-images.githubusercontent.com/67397386/159092970-e381b7fb-2d43-453d-9227-b8f6cc7561b4.png" width="441" height="426" />
 
 **Now you can just run the shortcut and you're done! 🎉**
 
