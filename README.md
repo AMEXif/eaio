@@ -2,8 +2,6 @@
 # **Editing All-In-One - Video processing compiled!**
 
 <div align="center">
-  
-  <br />
   ·
   <a href="https://forms.gle/fFiwvgmJLwqMfCAx9">Request a Feature</a>
   .
