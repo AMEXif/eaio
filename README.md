@@ -6,6 +6,7 @@
   <a href="https://forms.gle/fFiwvgmJLwqMfCAx9">Request a Feature</a>
   .
   <a href="https://discord.gg/mrFsZb5K4m">Ask a Question</a>
+  .
 </div>
 
 <div align="center">
