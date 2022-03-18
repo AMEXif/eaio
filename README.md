@@ -85,13 +85,11 @@ Please try to create bug reports that are:
 
 Reach out to the maintainer at one of the following places:
 
-- [GitHub discussions](https://github.com/dec0dOS/amazing-github-template/discussions)
-- The email which is located [in GitHub profile](https://github.com/dec0dOS)
+- [GitHub discussions](https://github.com/AMEXif/eaio/discussions)
+- [Discord Server](https://discord.gg/mrFsZb5K4m)
 
 ## License
 
 This project is licensed under the **MIT license**. Feel free to edit and distribute as you like.
 
 See [LICENSE](LICENSE) for more information.
-
-## Acknowledgements
