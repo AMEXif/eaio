@@ -1,6 +1,6 @@
 
 <div align="center"
-     size="28">
+     size="50">
   Editing All-In-One - Video processing compiled!
   <br />
   ·
