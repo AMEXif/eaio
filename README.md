@@ -43,6 +43,11 @@ Interpolation and Upscaling in V1.0 are mainly possible thanks to nuhui! - https
       - Transcoding
       - Video Interpolation
       - Video Upscaling
+  
+  **Plans for Version 1.1**
+    
+    - Speeding up the upscaling process.
+    - Progress presentation for Interpolation and Upscaling.
 
 </details>
 
