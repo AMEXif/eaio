@@ -5,7 +5,7 @@
   ·
   <a href="https://forms.gle/fFiwvgmJLwqMfCAx9">Request a Feature</a>
   .
-  <a href="https://github.com/AMEXif/eaio/discussions">Ask a Question</a>
+  <a href="https://discord.gg/mrFsZb5K4m">Ask a Question</a>
 </div>
 
 <div align="center">
@@ -66,6 +66,9 @@ Of course, no template will serve all the projects since your needs may be diffe
 
 ## Getting Started
 
+Download the package file from my payhip, it's 100% free, but I won't get mad if you decide to donate a teeny bit of your money.💯
+
+- [Download](https://blank.page/)
 
 ### Usage
 
