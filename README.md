@@ -66,9 +66,9 @@ Of course, no template will serve all the projects since your needs may be diffe
 
 ## Getting Started
 
-Download the package file from my payhip, it's 100% free, but I won't get mad if you decide to donate a teeny bit of your money.💯
+Download the package file from my payhip, it's 100% free, but I won't get mad if you decide to donate a teeny bit of your money 💯
 
-- [Download](https://blank.page/)
+- [Download](https://payhip.com/b/InD9Z)
 
 ### Usage
 
