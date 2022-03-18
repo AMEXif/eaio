@@ -29,6 +29,7 @@ The Editing AIO is an open-source project currently being developed by AMEXif. I
 EAIO was made with C# using the .NET Framework 4.7.2 and WPF. 
   
 The UI is very much just a copy of Payload's original design. - https://www.youtube.com/channel/UCOoKt2u-bE1NuELXSFaEdUw/featured
+<br>
 Interpolation and Upscaling in V1.0 are mainly possible thanks to nuhui! - https://github.com/nihui
 <br>
 Conversion is done using FFmpeg. - https://github.com/FFmpeg/FFmpeg
