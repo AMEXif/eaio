@@ -70,8 +70,7 @@ Download the package file from my payhip, it's 100% free, but I won't get mad if
 
 Extract the .rar archive onto your desktop (or wherever you want really, I don't care).
 
-<img src="https://user-images.githubusercontent.com/67397386/159092887-ac58df24-3c4d-47ec-b421-0d99276824c7.png" width="191" height="299" />
-![image](https://user-images.githubusercontent.com/67397386/159092887-ac58df24-3c4d-47ec-b421-0d99276824c7.png)
+<img src="https://user-images.githubusercontent.com/67397386/159092887-ac58df24-3c4d-47ec-b421-0d99276824c7.png" width="267" height="417" />
 
 Make a desktop shortcut pointing to the exe file found in the created directory.
 
