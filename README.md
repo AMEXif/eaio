@@ -32,6 +32,8 @@ The UI is very much just a copy of Payload's original design. - https://www.yout
 Interpolation and Upscaling in V1.0 are mainly possible thanks to nuhui! - https://github.com/nihui
 <br>
 Conversion is done using FFmpeg. - https://github.com/FFmpeg/FFmpeg
+<br>
+README template by dec0dOS - https://github.com/dec0dOS/amazing-github-template
   
 <details open>
 <summary>Change logs</summary>
