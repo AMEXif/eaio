@@ -1,0 +1,217 @@
+﻿<UserControl x:Class="eaio.MVVM.View.TranscoderView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:eaio.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="720"
+             Opacity="1">
+
+    <!-- <UserControl.Triggers>
+        <EventTrigger RoutedEvent="UserControl.Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation Duration="00:00:00" Storyboard.TargetProperty="Opacity" To="0" />
+                    <DoubleAnimation Duration="00:00:01" Storyboard.TargetProperty="Opacity" To="1" />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UserControl.Unloaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation Duration="00:00:01" Storyboard.TargetProperty="Opacity" To="0" />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </UserControl.Triggers> -->
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="320"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition/>
+            <RowDefinition Height="150"/>
+            <RowDefinition/>
+            <RowDefinition Height="0"/>
+            <RowDefinition/>
+            <RowDefinition Height="0"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <TextBlock Text="Transcoder"
+                   Foreground="White"
+                   FontSize="28"
+                   HorizontalAlignment="Left"
+                   Margin="0,0,0,10"/>
+            <TextBlock Text="Convert almost any video file into mp4 super fast."
+                   Foreground="DarkGray"
+                   FontSize="12"
+                   HorizontalAlignment="Left"
+                   Margin="5,0,0,0"/>
+            <TextBlock Text="Notes: The output files may not open and can get very glitchy when viewed in the microsoft photos app,"
+                   Foreground="DarkGray"
+                   FontSize="12"
+                   HorizontalAlignment="Left"
+                   Margin="5,5,0,0"/>
+            <TextBlock Text="however there are no problems when opened in After Effects."
+                   Foreground="DarkGray"
+                   FontSize="12"
+                   HorizontalAlignment="Left"
+                   Margin="5,0,0,0"/>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="0,0,0,75" Grid.RowSpan="2"
+                    Grid.ColumnSpan="2" >
+
+            <TextBox Width="400"
+                 Height="35"
+                 VerticalAlignment="Bottom"
+                 HorizontalAlignment="Left"
+                 Margin="10,40,0,00"
+                 Style="{StaticResource Inputbox}"
+                 x:Name="InputFileTextBox"/>
+
+            <TextBox Width="400"
+                 Height="35"
+                 VerticalAlignment="Bottom"
+                 HorizontalAlignment="Left"
+                 Margin="10,15,0,00"
+                 Style="{StaticResource Outputbox}"
+                 x:Name="OutputFileTextBox"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Column="1" Grid.Row="1"
+                    Grid.RowSpan="2">
+
+
+            <Button Content="..."
+                    Width="35"
+                    Height="35"
+                    HorizontalAlignment="Left"
+                    FontSize="14"
+                    VerticalAlignment="Top"
+                    Margin="110,40,0,0"
+                    Background="#333333"
+                    Foreground="DarkGray"
+                    BorderThickness="0"
+                    x:Name="btnIn" Click="btnIn_Click">
+                <Button.Template>
+                    <ControlTemplate>
+                        <Border CornerRadius="5">
+                            <TextBlock Text="..."
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Center"/>
+                            <Border.Style>
+                                <Style TargetType="Border">
+                                    <Setter Property="Background" Value="#333333"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#545454" />
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Border.Style>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+
+            <Button Content="..."
+                    Width="35"
+                    Height="35"
+                    HorizontalAlignment="Left"
+                    FontSize="14"
+                    VerticalAlignment="Top"
+                    Margin="110,15,0,0"
+                    Background="#333333"
+                    Foreground="DarkGray"
+                    BorderThickness="0"
+                    x:Name="btnOut" Click="btnOut_Click">
+                <Button.Template>
+                    <ControlTemplate>
+                        <Border CornerRadius="5">
+                            <TextBlock Text="..."
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Center"/>
+                            <Border.Style>
+                                <Style TargetType="Border">
+                                    <Setter Property="Background" Value="#333333"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#545454" />
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Border.Style>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Column="1" Grid.Row="1"
+                    Grid.RowSpan="2">
+
+            <Button Content="Convert"
+                    Width="180"
+                    Height="85"
+                    HorizontalAlignment="Center"
+                    FontSize="14"
+                    Margin="133,40,0,0"
+                    Background="#333333"
+                    Foreground="DarkGray"
+                    BorderThickness="0"
+                    x:Name="btnConvert" Click="btnConvert_Click">
+                <Button.Template>
+                    <ControlTemplate>
+                        <Border CornerRadius="10">
+                            <TextBlock Text="Convert"
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Center"
+                                       FontSize="25"/>
+                            <Border.Style>
+                                <Style TargetType="Border">
+                                    <Setter Property="Background" Value="#333333"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#545454" />
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Border.Style>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="2"
+                    Grid.RowSpan="6"
+                    Grid.ColumnSpan="2">
+
+            <TextBox Width="600"
+                 Height="175"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Left"
+                 Margin="40,120,0,0"
+                 Style="{StaticResource CmdOutput}"
+                 x:Name="cmdOutputBox"
+                 ScrollViewer.CanContentScroll="True"
+                 VerticalScrollBarVisibility="Auto"/>
+
+        </StackPanel>
+        
+    </Grid>
+
+
+</UserControl>
