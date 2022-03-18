@@ -78,7 +78,7 @@ Make a desktop shortcut pointing to the exe file found in the created directory.
 
 ![image](https://user-images.githubusercontent.com/67397386/159092970-e381b7fb-2d43-453d-9227-b8f6cc7561b4.png)
 
-Now you can just run the shortcut and you're done! 🎉
+**Now you can just run the shortcut and you're done! 🎉**
 
 ## Usage - Conversion
 
@@ -90,7 +90,7 @@ Then select your input and output files by clicking on the three-dotted buttons 
 
 ![image](https://user-images.githubusercontent.com/67397386/159093555-3b3a8114-ed43-492e-a316-5a9d952e9e7e.png)
 
-After that, just click "Convert" and watch it go! 🎉
+**After that, just click "Convert" and watch it go! 🎉**
 
 ## Contributing
 
