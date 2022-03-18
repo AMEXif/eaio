@@ -61,10 +61,8 @@ Of course, no template will serve all the projects since your needs may be diffe
 
 ### Built With
 
-- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
-- [Cookiecutter](https://github.com/cookiecutter/cookiecutter)
-- [GitHub Actions](https://github.com/features/actions)
-- [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli)
+- [C# .NET Framework](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472)
+- [WPF](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/getting-started/?view=netframeworkdesktop-4.8)
 
 ## Getting Started
 
