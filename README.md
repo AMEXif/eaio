@@ -80,8 +80,17 @@ Make a desktop shortcut pointing to the exe file found in the created directory.
 
 Now you can just run the shortcut and you're done! 🎉
 
-### Usage
+## Usage - Conversion
 
+To convert a video super fast, select the "Transcoder" tab on the left panel.
+
+![image](https://user-images.githubusercontent.com/67397386/159093140-d728b653-5569-4313-b41a-7963277daeb6.png)
+
+Then select your input and output files by clicking on the three-dotted buttons next to the text blocks accordingly.
+
+![image](https://user-images.githubusercontent.com/67397386/159093555-3b3a8114-ed43-492e-a316-5a9d952e9e7e.png)
+
+After that, just click "Convert" and watch it go! 🎉
 
 ## Contributing
 
