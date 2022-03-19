@@ -108,8 +108,6 @@ Select if you want to delete any duplicate frames from the input video. This is 
 
 ## Video Guide
 
-[![Video Guide](https://img.youtube.com/vi/WyM_7GbmJ88/0.jpg)](https://www.youtube.com/watch?v=WyM_7GbmJ88)
-
 ## Support
 
 ***- [Contact me in my discord server! (very WIP)](https://discord.gg/mrFsZb5K4m)***
