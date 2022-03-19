@@ -106,8 +106,6 @@ Select if you want to delete any duplicate frames from the input video. This is 
 
 **After this, the process of processing the video is pretty much the same as when converting. So you can just follow the guide at the top! 🎉**
 
-## Video Guide
-
 ## Support
 
 ***- [Contact me in my discord server! (very WIP)](https://discord.gg/mrFsZb5K4m)***
