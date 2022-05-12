@@ -108,7 +108,7 @@ Select if you want to delete any duplicate frames from the input video. This is 
 
 ## Support
 
-***- [Contact me in my discord server! (very WIP)](https://discord.gg/mrFsZb5K4m)***
+***- [Contact me in my discord server! (very WIP)](https://discord.gg/ppeFYx9ke3)***
 
 ## License
 
