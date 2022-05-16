@@ -1,0 +1,60 @@
+﻿<Application x:Class="eaio.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:metro="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             xmlns:local="clr-namespace:eaio"
+             xmlns:viewModel="clr-namespace:eaio.MVVM.ViewModel"
+             xmlns:view="clr-namespace:eaio.MVVM.View"
+             StartupUri="MainWindow.xaml"
+             Startup="App_Startup">
+    <Application.Resources>
+        
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/TextboxTheme.xaml"/>
+                <ResourceDictionary Source="Theme/InputboxTheme.xaml"/>
+                <ResourceDictionary Source="Theme/ModelboxTheme.xaml"/>
+                <ResourceDictionary Source="Theme/OutputboxTheme.xaml"/>
+                <ResourceDictionary Source="Theme/InputbuttonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/cmdOutputBoxTheme.xaml"/>
+                <ResourceDictionary Source="Theme/cmdOutputBoxThemeInterp.xaml"/>
+                <ResourceDictionary Source="Theme/cmdOutputBoxThemeUpscale.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:TranscoderViewModel}">
+                <view:TranscoderView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:InterpolationViewModel}">
+                <view:InterpolationView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:UpscalerViewModel}">
+                <view:UpscalerView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:RecognitionViewModel}">
+                <view:RecognitionView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:MuRecognitionViewModel}">
+                <view:MuRecognitionView/>
+            </DataTemplate>
+
+            <Style TargetType="TextBlock" x:Key="HoverUnderlineStyle">
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="TextBlock.TextDecorations" Value="Underline" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
