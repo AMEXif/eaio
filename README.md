@@ -59,6 +59,7 @@ README template by dec0dOS - https://github.com/dec0dOS/amazing-github-template
   
     - Made an installer
     - App updates automatically
+    - Added batch transcoding functionality
     - Added music recognition
   
   **Plans for Version 1.3**
