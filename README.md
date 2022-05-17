@@ -95,30 +95,6 @@ Make a desktop shortcut pointing to the exe file found in the created directory.
 
 **Now you can just run the shortcut and you're done! 🎉**
 
-## Usage - Conversion
-
-To convert a video super fast, select the "Transcoder" tab on the left panel.
-
-<img src="https://user-images.githubusercontent.com/67397386/159093140-d728b653-5569-4313-b41a-7963277daeb6.png" width="665" height="399" />
-
-Then select your input and output files by clicking on the three-dotted buttons next to the text blocks accordingly.
-
-<img src="https://user-images.githubusercontent.com/67397386/159093555-3b3a8114-ed43-492e-a316-5a9d952e9e7e.png" width="662" height="399" />
-
-**After that, just click "Convert" and watch it go! 🎉**
-
-## Usage - Interpolation / Upscaling
-
-To start the interpolation process, select the "Interpolation" tab.
-
-<img src="https://user-images.githubusercontent.com/67397386/159095495-299d45a6-a728-4059-9d9d-439bdab8f6de.png" width="665" height="399" />
-
-Select if you want to delete any duplicate frames from the input video. This is important, as if you don't select this option the output video will most likely be very choppy! However, if you have already cut out any dead frames from the input video yourself, you can leave this unchecked.
-
-<img src="https://user-images.githubusercontent.com/67397386/159095751-13564508-ddd6-4cb4-860f-a062a179550a.png" width="662" height="399" />
-
-**After this, the process of processing the video is pretty much the same as when converting. So you can just follow the guide at the top! 🎉**
-
 ## Support
 
 ***- [Contact me in my discord server! (very WIP)](https://discord.gg/ppeFYx9ke3)***
