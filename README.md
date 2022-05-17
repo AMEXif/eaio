@@ -50,10 +50,22 @@ README template by dec0dOS - https://github.com/dec0dOS/amazing-github-template
       - Video Interpolation
       - Video Upscaling
   
-  **Plans for Version 1.1**
+  **Version 1.1**
     
-    - Speeding up the upscaling process.
-    - Progress presentation for Interpolation and Upscaling.
+    - Added Anime recgnition using trace.moe
+    - Added progress to Interpolation
+  
+  **Version 1.2**
+  
+    - Made an installer
+    - App updates automatically
+    - Added music recognition
+  
+  **Plans for Version 1.3**
+    
+    - Implement more upscaling options
+    - Various optimizations
+    - Cleaning up the code
 
 </details>
 
