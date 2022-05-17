@@ -4,9 +4,9 @@
 <div align="center">
   ·
   <a href="https://forms.gle/fFiwvgmJLwqMfCAx9">Request a Feature</a>
-  .
+  ·
   <a href="https://discord.gg/ppeFYx9ke3">Ask a Question</a>
-  .
+  ·
 </div>
 
 <div align="center">
