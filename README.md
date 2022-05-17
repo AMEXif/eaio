@@ -86,7 +86,6 @@ Download the package file from my payhip, it's 100% free, but I won't get mad if
 - [Download](https://payhip.com/b/InD9Z)
 
 You can just download the installer which will install the newest version of eaio available into %localappdata%\EAIO
-
 Or you can install the app files themselves into any folder you like using this approach!
 
 Extract the .rar archive onto your desktop (or wherever you want really, I don't care).
